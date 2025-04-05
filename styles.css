@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    width: 440px;
+    height: 440px;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.squares{
+    width: 80px;
+    height: 80px;
+    font-size: 18px;
+}
+.box {
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+}
+body{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
