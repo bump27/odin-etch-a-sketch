@@ -1,19 +1,22 @@
 .container{
     display: flex;
-    width: 440px;
-    height: 440px;
-    gap: 8px;
+    width: 480px;
+    height: 480px;
     flex-wrap: wrap;
 }
-.squares{
-    width: 80px;
-    height: 80px;
+.squares, .clear, .rainbow{
+    width: 120px;
+    height: 120px;
     font-size: 18px;
+    margin-left: 128px;
+    margin-right: 128px;
+    background-color: orangered;
+    font-family:'Courier New', Courier, monospace
 }
 .box {
-    background-color: aqua;
-    width: 20px;
-    height: 20px;
+    background-color: lightgray;
+    width: 30px;
+    height: 30px;
 }
 body{
     display: flex;
@@ -21,4 +24,5 @@ body{
     align-items: center;
     gap: 30px;
     margin: 30px;
+    user-select: none;
 }
